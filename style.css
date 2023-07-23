@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.containerHeader {
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;  
+    height: 120px;
+}
+header {
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#imgLogo {
+    width:200px;
+    height: 200px;
+}
+
+nav a {
+    padding: 10px 18px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    
+}
+
+
+nav a:hover .active {
+    border-bottom: solid 3px #f7a200;
+    color: #ccc;
+    transition: 0.3s;
+    cursor: pointer;
+}
